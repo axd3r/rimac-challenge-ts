@@ -2,6 +2,8 @@
 
 Aplicación desarrollada con **React** y **TypeScript**, siguiendo una estructura modular basada en características (*feature-based*). El objetivo es demostrar habilidades de implementación visual, validación de formularios, consumo de API y arquitectura escalable.
 
+🔗 [Ver aplicación desplegada en Amplify](https://main.d3rqnua5wpp4it.amplifyapp.com/)
+
 Puedes interactuar libremente con el formulario. Los campos están validados según las reglas de negocio, y al enviarlo se realiza una solicitud a:
 
 ```
