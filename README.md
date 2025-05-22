@@ -9,7 +9,7 @@ https://rimac-front-end-challenge.netlify.app/api/user.json
 ```
 
 ### Ejemplo visual:
-![Ejemplo de formulario](public/example1.png)
+![Ejemplo de formulario](public/example.png)
 
 ### Ejemplo visual Moviles:
 ![Ejemplo de formulario](public/example_movile.png)
