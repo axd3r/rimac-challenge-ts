@@ -1,0 +1,38 @@
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  img {
+    margin-left: 120px;
+  }
+
+  span {
+    margin-right: 120px;
+    color: #F8F9FF;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 100px;
+    img {
+      margin-left: 0px;
+      margin-bottom: 4px;
+    }
+
+    span {
+      margin-right: 0px;
+      font-size: 12px;
+    }
+  }
+}

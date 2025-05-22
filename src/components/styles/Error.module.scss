@@ -1,0 +1,13 @@
+@use '../../assets/styles/variables' as *;
+
+
+.wrapper__error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.image__error {
+  width: 50%;
+}

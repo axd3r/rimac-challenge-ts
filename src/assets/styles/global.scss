@@ -1,0 +1,114 @@
+@use './variables' as *;
+@use './fonts' as *;
+
+body {
+  font-family: $fontFamily;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0px 48px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid__col-span-1 { grid-column: span 1; }
+.grid__col-span-2 { grid-column: span 2; }
+.grid__col-span-3 { grid-column: span 3; }
+.grid__col-span-4 { grid-column: span 4; }
+.grid__col-span-5 { grid-column: span 5; }
+.grid__col-span-6 { grid-column: span 6; }
+.grid__col-span-7 { grid-column: span 7; }
+.grid__col-span-8 { grid-column: span 8; }
+.grid__col-span-9 { grid-column: span 9; }
+.grid__col-span-10 { grid-column: span 10; }
+.grid__col-span-11 { grid-column: span 11; }
+.grid__col-span-12 { grid-column: span 12; }
+
+// phones 
+@media (max-width: 480px) {
+
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    position: relative;
+  }
+
+  .grid__col-span-1 { grid-column: span 1; }
+  .grid__col-span-2 { grid-column: span 1; }
+  .grid__col-span-3 { grid-column: span 2; }
+  .grid__col-span-4 { grid-column: span 1; }
+  .grid__col-span-5 { grid-column: span 1; }
+  .grid__col-span-6 { grid-column: span 4; }
+  .grid__col-span-7 { grid-column: span 1; }
+  .grid__col-span-8 { grid-column: span 1; }
+  .grid__col-span-9 { grid-column: span 1; }
+  .grid__col-span-10 { grid-column: span 1; }
+  .grid__col-span-11 { grid-column: span 1; }
+  .grid__col-span-12 { grid-column: span 4; }
+}
+
+.container__blur {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container__blur--left {
+  left: 0;
+  background-image: url('../images/FlexibleHealthInsurance/blur-asset-left.png');
+  @media (max-width: 768px) {
+    bottom: -308px;
+  }
+}
+
+.container__blur--right {
+  right: 0;
+  background-image: url('../images/FlexibleHealthInsurance/blur-asset-right.png');
+}
+
+h1 {
+  font-family: $fontFamily;
+  font-weight: 700;
+  font-size: 32px;
+  color: #03050F;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: $fontFamily;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #222;
+}
+
+p {
+  font-family: $fontFamily;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #03050F;
+}
+
+span {
+  font-family: $fontFamily;
+  font-weight: 200;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+u {
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}

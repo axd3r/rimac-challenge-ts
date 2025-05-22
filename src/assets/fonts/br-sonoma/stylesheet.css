@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-ExtraLight.woff2') format('woff2'),
+        url('BRSonoma-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-LightItalic.woff2') format('woff2'),
+        url('BRSonoma-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Black.woff2') format('woff2'),
+        url('BRSonoma-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-BlackItalic.woff2') format('woff2'),
+        url('BRSonoma-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-ExtraLightItalic.woff2') format('woff2'),
+        url('BRSonoma-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Light.woff2') format('woff2'),
+        url('BRSonoma-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Bold.woff2') format('woff2'),
+        url('BRSonoma-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-BoldItalic.woff2') format('woff2'),
+        url('BRSonoma-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-RegularItalic.woff2') format('woff2'),
+        url('BRSonoma-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Medium.woff2') format('woff2'),
+        url('BRSonoma-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Regular.woff2') format('woff2'),
+        url('BRSonoma-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-MediumItalic.woff2') format('woff2'),
+        url('BRSonoma-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-SemiBoldItalic.woff2') format('woff2'),
+        url('BRSonoma-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-SemiBold.woff2') format('woff2'),
+        url('BRSonoma-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-ThinItalic.woff2') format('woff2'),
+        url('BRSonoma-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Thin.woff2') format('woff2'),
+        url('BRSonoma-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

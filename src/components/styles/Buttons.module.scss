@@ -1,0 +1,14 @@
+.btnBack {
+  margin-top: 30px;
+  padding-left: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  span {
+    font-weight: 400;
+    color: #4F4FFF;
+    font-size: 18px;
+  }
+}

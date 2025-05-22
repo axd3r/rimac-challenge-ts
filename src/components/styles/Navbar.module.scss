@@ -1,0 +1,66 @@
+@use '../../assets/styles/variables' as *;
+
+
+.navbar {
+  position: relative;
+  z-index: 9999;
+  &__logo {
+    position: absolute;
+    top: 15px;
+    left: 144px;
+  }
+
+  &__phone {
+    position: absolute;
+    right: 144px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+
+    a {
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: 700;
+      color: #03050F;
+
+    }
+  }
+
+  &__description {
+    margin-right: 17px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  &__callUs {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    &__logo {
+      left: 23px;
+    }
+
+    &__phone {
+      right: 31px;
+
+      a {
+        display: none;
+      }
+    }
+
+    &__description {
+      display: none;
+    }
+
+    &__callUs {
+      display: inline;
+      color: black;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.4px;
+    }
+  }
+}
